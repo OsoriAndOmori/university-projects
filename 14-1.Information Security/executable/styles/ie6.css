@@ -1,0 +1,35 @@
+.slideshow-container{
+	margin:0;
+}
+.slideshow img{
+	margin:0 0 0 -3px;
+}
+.next-posts{
+	margin:0;
+}
+#contact-page #contactform{
+	margin:0;
+}
+.slideshow span.image-wrapper{
+	top:19px;
+}
+.navigation-container{
+	margin:0 0 0 15px;
+}
+.navigation a.prev{
+	background-image:url(../images/arrow-left.gif);
+	margin:12px 5px 0 0;
+}
+ul.thumbs li{
+	background:none;
+}
+.commentlist p, .commentlist .comment-meta{
+	width:420px;
+}
+.commentlist img{
+	position:relative;
+	z-index:1px;
+}
+#sidebar #author-details h3{
+	font-size:17px;
+}

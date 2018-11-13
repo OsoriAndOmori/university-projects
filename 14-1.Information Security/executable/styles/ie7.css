@@ -1,0 +1,18 @@
+ul.thumbs li{
+	background-color:#fff;
+}
+.slideshow img{
+	margin:0 0 0 -3px;
+}
+.next-posts{
+	margin:0;
+}
+#contact-page #contactform{
+	margin:0;
+}
+.slideshow span.image-wrapper{
+	top:19px;
+}
+#sidebar #author-details h3{
+	font-size:17px;
+}

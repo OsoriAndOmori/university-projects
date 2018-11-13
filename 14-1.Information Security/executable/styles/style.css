@@ -1,0 +1,352 @@
+/*
+Template Name:Rikona HTML Template
+Description:A Photography Portfolio HTML Template
+Author:Chris Creed
+URL:http://www.chris-creed.com
+*/
+
+/* Colors:Orange - #F34607 */
+
+@import "reset.css";
+/* ----------- */
+/* -- Tools -- */
+/* ----------- */
+.footer-line{
+	border-bottom:2px solid #eee;
+}
+.line{
+	clear:both;
+	border-bottom:2px solid #eee;
+	margin-bottom:45px;
+}
+.cache-images{
+	visibility:hidden;
+}
+/* -------------------- */
+/* -- General Styles -- */
+/* -------------------- */
+#wrap{
+	width:960px;
+	margin:0 auto;
+	text-align:center;
+}
+body{
+	background:url(../images/main-bg.jpg) repeat-x;
+	background-color:#fff;
+	color:#555;
+	line-height:24px;
+	font-family:Arial;
+	font-size:14px;
+	text-align:center;
+}
+h1{
+	font-size:60px;
+	margin:30px 0 15px 0;
+}
+h2{
+	font-size:22px;
+	margin:30px 0 15px 0;
+}
+h3{
+	font-size:22px;
+	margin:25px 0 15px 0;
+}
+h4{
+	font-size:18px;
+	margin:20px 0 10px 0;
+}
+h5{
+	font-size:16px;
+	margin:20px 0 5px 0;
+}
+h6{
+	font-size:14px;
+	margin:0;
+}
+a:link, a:visited{
+	color:#F34607;
+	text-decoration:none;
+}
+a:hover, a:active{
+	color:#111;
+}
+em{
+	font-style:italic;
+}
+ol, ul{
+	list-style:none;
+}
+/* ----------------- */
+/* -- Main Layout -- */
+/* ----------------- */
+#main{
+	float:left;
+	padding:70px 0 0 0;
+	min-height:700px;
+	width:100%;
+}
+#content{
+	float:left;
+	width:550px;
+	padding:0 100px 40px 2px;
+	text-align:left;
+	margin:-10px 0 0 0;
+}
+#sidebar{
+	float:right;
+	width:250px;
+	margin:-10px 0 0 0;
+}
+/* ------------ */
+/* -- Header -- */
+/* ------------ */
+#header{
+	padding:50px 0 0 0;
+}
+.logo{
+	margin:0 0 -15px 0;
+}
+/* --------- */
+/* -- Nav -- */
+/* --------- */
+#nav{
+	float:left;
+	width:100%;
+	overflow:hidden;
+	position:relative;
+	margin:30px 0 10px 0;
+	border-top:2px #eee solid;
+	border-bottom:2px #eee solid;
+	padding:20px 0 16px;
+}
+#nav ul{
+	clear:left;
+	float:left;
+	margin:0;
+	padding:0;
+	position:relative;
+	left:50%;
+	text-align:center;
+}
+#nav ul li{
+	float:left;
+	list-style:none;
+	margin:0;
+	padding :0;
+	position:relative;
+	right:50%;
+}
+#nav ul li a{
+	margin:0 0 0 1px;
+	padding:0;
+	font-size:20px;
+	color:#555;
+	text-transform:uppercase;
+}
+#nav ul li a:hover{
+	color:#F34607;
+}
+#nav li span{
+	padding:20px;
+	color:#555;
+	font-size:20px;
+}
+#nav li .current{
+	color:#F34607;
+}
+/* ------------- */
+/* -- Gallery -- */
+/* ------------- */
+.slideshow-container{
+	background:url(../images/slideshow-bg.png) no-repeat;
+	position:relative;
+	clear:both;
+	height:390px;
+	width:640px;
+}
+ul.thumbs li{
+	float:left;
+	background:url(../images/thumb-bg.png) no-repeat;
+	width:160px;
+	height:106px;
+	margin:0 10px 0 0;
+}
+ul.thumbs li a img{
+	border:1px solid #ddd;
+	display:block;
+	float:left;
+	margin:14px 0 0 14px;
+}
+.loader{
+	margin:-60px 0 0 0;
+}
+.slideshow img{
+	border:1px solid #ddd;
+	margin:-11px 0 0 -3px;
+}
+/* -------------- */
+/* -- Articles -- */
+/* -------------- */
+.article{
+	margin:0 0 45px 0;
+}
+.article h2.title{
+	margin:0;
+	line-height:30px;
+	font-size:24px;
+}
+.article p{
+	margin:10px 0 20px 0;
+}
+.article p.meta{
+	font-size:20px;
+	margin:0 0 15px 0;
+	color:#aaa;
+}
+.next-articles{
+	margin:0;
+}
+.page h2.title{
+	margin:0 0 15px 0;
+	line-height:30px;
+	font-size:22px;
+}
+.page-title{
+	margin:0 0 15px 0;
+	line-height:30px;
+	font-size:24px;
+}
+.more-link{
+	display:block;
+	margin:20px 0 0 0;
+}
+/* ------------------ */
+/* -- Testimonials -- */
+/* ------------------ */
+.testimonial em{
+	color:#555;
+}
+.testimonial .author{
+	color:#111;
+}
+.testimonial .company{
+	color:#0f82e7;
+}
+/* ------------- */
+/* -- Sidebar -- */
+/* ------------- */
+#sidebar{
+	text-align:left;
+}
+#sidebar h2{
+	font-size:20px;
+	padding:0;
+}
+#sidebar .author-photo{
+	background:url(../images/author-bg.png);
+	width:250px;
+	height:250px;
+	margin:0 0 0 -3px;
+}
+#sidebar .author-photo img{
+	margin:9px 0 0 9px;
+	border:1px #ddd solid;
+}
+#sidebar #author-details{
+	margin:25px 0 0 0;
+}
+#sidebar #author-details h3{
+	font-size:18px;
+	color:#888;
+	margin:0 0 10px 0
+}
+#sidebar #author-details .status{
+	color:#111;
+}
+#sidebar #author-details p{
+	font-size:13px;
+	margin:0 0 15px 1px;
+	line-height:22px;
+}
+#sidebar .widget, #sidebar #calendar_wrap, #sidebar #searchform{
+	margin:0 0 0 2px;
+}
+/* ------------- */
+/* -- Contact -- */
+/* ------------- */
+#contact-page{
+	float:left;
+	width:500px;
+}
+#contact-page .contact-title{
+	margin:0 0 15px 0;
+	line-height:30px;
+	font-size:24px;
+}
+#contact-page p{
+	margin:0 0 25px 2px;
+}
+#contact-page #contact-form{
+	margin:0;
+}
+#contact-page #contact-form fieldset{
+	border:none;
+}
+#contact-page #contact-form input{
+	background:url(../images/main-bg.jpg) repeat-x;
+	border:1px #ddd solid;
+	padding:12px 10px 10px 10px;
+	font-size:14px;
+	color:#555;
+	font-family:Arial, Helvetica, sans-serif;
+	margin:0 200px 15px 0;
+	width:275px;
+}
+#contact-page #contact-form textarea{
+	background:url(../images/main-bg.jpg) repeat-x;
+	border:1px #ddd solid;
+	width:515px;
+	height:249px;
+	font-size:14px;
+	color:#555;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:22px;
+	margin:0 0 15px 0;
+	padding:15px 20px 0 15px;
+	width:450px;
+	overflow:hidden;
+}
+#contact-page #contact-form .submit{
+	background:url(../images/submit-button-blue.png) no-repeat;
+	width:109px;
+	height:38px;
+	border:none;
+	cursor:pointer;
+	margin:0 0 0 -6px;
+}
+#contact-page #contact-form .submit:hover{
+	background:url(../images/submit-button-blue-hover.png) no-repeat;
+	cursor:pointer;
+}
+#response{
+	background-color:#eee;
+	border:1px #ddd solid;
+	padding:15px;
+	color:#cc0000;
+}
+.hide{
+	display:none;
+}
+/* ------------ */
+/* -- Footer -- */
+/* ------------ */
+#footer{
+	clear:both;
+	font-size:14px;
+	color:#555;
+	padding:0 0 50px 0;
+}
+#footer .copyright{
+	text-align:center;
+	padding:8px 0 0 0;
+}
