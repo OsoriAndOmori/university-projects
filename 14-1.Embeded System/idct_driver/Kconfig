@@ -1,0 +1,18 @@
+#
+# Watchdog device configuration
+#
+
+menu "IDCT DRIVER"
+
+config IDCT_DRIVER
+	bool "Idct Device Driver Support"
+	---help---
+	  Idct device driver
+
+config IDCT_SAMPLE_DRIVER
+        bool "IDCT Sample Driver Support"
+        depends on IDCT_DRIVER
+        help
+          Idct sample driver
+
+endmenu
